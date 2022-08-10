@@ -1,0 +1,54 @@
+/* Layout Caixa */
+
+.conteudo{
+    border: 1px solid red;
+    padding: 20px 20px;
+    width: 150px;
+    margin: 10px;
+}
+
+/* Elementos Flutuantes */
+
+.conteudo-flutuante{
+    margin: 5px;
+    background: blue;
+    border: 1px solid gray;
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+
+.clear{
+    clear: both;
+}
+
+body{
+    background: #f4f4f4;
+}
+
+.fundo-div{
+    background: green;
+    border: 5px solid red;
+}
+
+/* Pratica Elementos Flutuantes */
+
+#principal{
+    width: 920px;
+}
+
+.noticia{
+    float: left;
+    margin: 5px;
+    width: 280px;
+    padding: 5px;
+    background: #e5e5e5;
+}
+
+.imagem-noticia{
+    margin: 5px;
+    float: left;
+    padding: 5px;
+    background: #FFFFFF;
+    width: 280px;
+}

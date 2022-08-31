@@ -13,6 +13,7 @@ body {
 /* formatacao menu */
 a {
     text-decoration: none;
+    color: #FFF;
 }
 
 a:link,
@@ -37,6 +38,40 @@ a:hover {
 #area-logo,
 #area-menu {
     padding: 10px;
+}
+
+#area-principal {
+    width: 920px;
+    margin: 0px auto;
+}
+
+#area-postagens,
+#area-lateral {
+    background: orange;
+}
+
+#area-postagens {
+    width: 660px;
+    float: left;
+}
+
+.postagem {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #FFF;
+}
+
+#area-lateral {
+    width: 240px;
+    float: right;
+}
+
+#rodape {
+    clear: both;
+    /* remove fluxo dos elementos flutuantes */
+    background: #CCC;
+    text-align: center;
+    padding: 15px;
 }
 
 h1 {

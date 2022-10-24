@@ -15,8 +15,7 @@ a {
     text-decoration: none;
 }
 
-a:link,
-a:visited {
+a:link,a:visited {
     color: #F7b600;
 }
 
@@ -44,20 +43,16 @@ a:hover {
     text-align: center;
 }
 
-#area-logo,
-#area-menu {
+#area-logo,#area-menu {
     padding: 10px;
 }
 
 #area-principal {
-    padding: 15px;
     width: 920px;
-    margin: 0px auto;
+    margin: 0 auto;
+    padding: 15px;
 }
-
-#area-lateral {
-    background: orange;
-}
+ 
 
 #area-postagens {
     width: 660px;
@@ -75,6 +70,19 @@ a:hover {
     float: right;
 }
 
+.conteudo-lateral {
+	background: white;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+
+.postagem-lateral {
+	font-size: 0.8em;
+	padding: 5px;
+	border-bottom: 1px dotted #CCC;
+}
+
 #rodape {
     clear: both;
     /* remove fluxo dos elementos flutuantes */
@@ -90,6 +98,12 @@ h1 {
 
 h2 {
     color: #f7b600;
+}
+
+h3 {
+	color: #565656;
+	background: #CCC;
+	padding: 5px;
 }
 
 .branco {

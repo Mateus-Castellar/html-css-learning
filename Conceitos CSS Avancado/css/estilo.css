@@ -1,0 +1,45 @@
+/* seletor universal (aplica-se a todos elementos)*/
+/* * {
+    border: 1px solid red
+} */
+
+/* Seletor de texto */
+/* h1{
+    color:green
+} */
+
+/* seletor de classe */
+/* .roxo{
+    color:purple
+} */
+
+/* pode ser usado apenas em elementos do tipo <p> */
+/* p.roxo{
+    background-color: purple;
+} */
+
+/* #cabecalho{
+    border: 1px solid blue;
+} */
+
+/* Seletor de filho */
+/* li>a{
+    color: red;
+    text-decoration: none;
+} */
+
+/* Seletor de descendente (diferente do filho, pode ter outros elementos entre os <p> e <a>)*/
+/* li a{
+    color:orange
+} */
+
+/* Seletor de irmao Adjacente (seleciona o primeiro elemento <p> depois de qualquer h1) */
+/* h1+p{
+    font-size: large;
+    color: aqua;
+} */
+
+/* Seletor de irmao Geral (seleciona todos elemento <p> depois de qualquer h1, mas antes nao)*/
+/* h1~p{
+    color:brown
+} */

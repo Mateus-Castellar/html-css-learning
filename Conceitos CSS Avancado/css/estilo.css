@@ -71,7 +71,7 @@ h2{
 } */
 
 /* =============================== Barra Navegação Vertical =========================*/
- ul{
+ /* ul{
     margin: 0;
     padding: 0;
     list-style-type: none;
@@ -85,7 +85,6 @@ ul a{
     line-height: 40px;
     width: 200px;
     height: 40px;
-    /* border: 1px solid purple; */
     background: #f7b600 url(../images/menu.png) no-repeat left bottom;
 }
 
@@ -100,4 +99,42 @@ a:hover{
     background-position: right bottom;
     background-color: #f99200;
     color: white;
+} */
+
+/* =============================== Barra Navegação Horizontal =========================*/
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 720px;
+    background: #159cb0 url(../images/fundo-horizontal.png) repeat-x;
+    float: left;
+}
+
+ul li{
+    float: left;
+}
+
+ul a{
+    display: block  ;
+    padding: 0 2em;
+    line-height: 2em;
+    text-decoration: none;
+    color: white;
+    background: url(../images/divisor.png) repeat-y;
+}
+
+ul .primeiro a {
+    background: none;
+}
+
+ul a:hover{
+    color: #085662;
+    background: #44cade;
+}
+
+#home #navegacao-horizontal .home a,
+#sobre #navegacao-horizontal .sobre a{
+    color: #085662;
+    background: #44cade;
 }

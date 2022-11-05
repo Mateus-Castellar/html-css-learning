@@ -43,3 +43,29 @@
 /* h1~p{
     color:brown
 } */
+
+
+
+/* ==============================Heranca e Especificidade================================ */
+/* body{
+    color:red
+} */
+
+/* Em 2 seletores iguais, sempre é aplicado o utlimo (para dar prioridade pode-se usar !importante) */
+/* p {
+    color:blue !important;
+}
+
+p{
+    color:red;
+} */
+
+
+/* Um seletor mais especifo tera prioridade sobre um seletor mais geral
+*{
+    color:purple
+}
+
+h2{
+    color: blue;
+} */

@@ -69,3 +69,32 @@ p{
 h2{
     color: blue;
 } */
+
+/* =============================== Barra Navegação Vertical =========================*/
+ ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    text-indent: 40px;
+    line-height: 40px;
+    width: 200px;
+    height: 40px;
+    /* border: 1px solid purple; */
+    background: url(../images/menu.png) no-repeat left bottom;
+}
+
+a:hover{
+    background-position: right bottom;
+    color: white;
+}
+
+/* li{
+    padding: 5px 25px;
+    background: url(../images/seta.png) no-repeat left center;
+}  */

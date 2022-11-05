@@ -86,15 +86,18 @@ ul a{
     width: 200px;
     height: 40px;
     /* border: 1px solid purple; */
-    background: url(../images/menu.png) no-repeat left bottom;
+    background: #f7b600 url(../images/menu.png) no-repeat left bottom;
 }
 
 a:hover{
     background-position: right bottom;
+    background-color: #f99200;
     color: white;
 }
 
-/* li{
-    padding: 5px 25px;
-    background: url(../images/seta.png) no-repeat left center;
-}  */
+#home #navegacao-lateral .home a,
+#sobre #navegacao-lateral .sobre a{
+    background-position: right bottom;
+    background-color: #f99200;
+    color: white;
+}

@@ -9,7 +9,7 @@ body{
 }
 
 #container{
-    width: 700px;
+    width: 750px;
     margin: 0 auto;
 }
 
@@ -77,4 +77,43 @@ body.fotos #navegacao a#fotos{
     color: #fff;
     background: #de003e;
     cursor: text;
+}
+
+/*=============== Layout 3 colunas home ======================*/
+#conteudo{
+    margin-top: 60px;
+    background: pink;
+    
+}
+
+#primario{
+    width: 270px;
+    background: green;
+    float: left;
+    margin: 0 0 20px 195px
+}
+
+#secundario{
+    float: left;
+    width: 270px;
+    background: yellow;
+    margin: 0 0 20px 15px;
+}
+
+#lateral{
+    margin: 0 0 20px -750px;
+    float: left;
+    width: 180px;
+    background: red;
+}
+
+#container-rodape{
+    background: #294c71;
+    padding: 20px;
+}
+
+#rodape{
+    width: 750px;
+    margin: 0 auto;
+    color: white;
 }

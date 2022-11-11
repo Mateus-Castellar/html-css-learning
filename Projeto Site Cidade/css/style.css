@@ -86,11 +86,26 @@ body.fotos #navegacao a#fotos{
     
 }
 
+#lateral{
+    margin: 0 0 20px -750px;
+    float: left;
+    width: 180px;
+}
+
 #primario{
     width: 270px;
     background: green;
     float: left;
     margin: 0 0 20px 195px
+}
+
+#duas-colunas #primario{
+    width: 555px;
+}
+
+#uma-coluna #primario{
+    width: 750px;
+    margin: 0 0 20px 0px
 }
 
 #secundario{
@@ -100,16 +115,64 @@ body.fotos #navegacao a#fotos{
     margin: 0 0 20px 15px;
 }
 
-#lateral{
-    margin: 0 0 20px -750px;
-    float: left;
-    width: 180px;
-    background: red;
-}
-
 #container-rodape{
     background: #294c71;
     padding: 20px;
+}
+
+.caixa{
+    background: #f3f3f3 url(../images/fundo-caixa.png);
+    margin: 10px 0px;
+    padding: 5px 0 5px 0;
+}
+
+h2{
+    font-size: 1em;
+    background: #294c71;
+    color: #fff;
+    padding: 5px;
+}
+
+.caixa-conteudo{
+    background: #fff;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+#lateral ul a{
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+#lateral ul a:hover{
+    background: #f9f9f9 url(../images/marcador.png) no-repeat left center;
+    padding-left: 20px;
+    color: #a1a1a1;
+
+}
+
+label{
+    display: block;
+    cursor: pointer;
+}
+
+input{
+    font-size: 0.9em;
+    padding: 5px;
+    width: 125px;
+    background-color: #fff;
+}
+
+input.submit{
+    width: 80px;
+    color: #fff;
+    background-color: #b10333;
+    border: 2px solid #870529;
 }
 
 #rodape{
